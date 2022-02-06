@@ -19,14 +19,14 @@ query("span")[0].innerHTML = "Hello Pig";
 ```
 
 ## 文字统计
-您可以使用statistics(string inner)统计文字,
+您可以使用statistics(string || array || number inner)统计文字,
 例如:`statistics("Hello World")`它将返回一个数组
 `[{text: 'H', count: 1},
-{text: 'e', count: 1},
-{text: 'l', count: 3},
-{text: 'o', count: 2},
-{text: ' ', count: 1},
-{text: 'W', count: 1},
-{text: 'r', count: 1},
-{text: 'd', count: 1}]`
-text为文本信息,count为文本信息在字符串中出现的次数
+{inner: 'e', count: 1},
+{inner: 'l', count: 3},
+{inner: 'o', count: 2},
+{inner: ' ', count: 1},
+{inner: 'W', count: 1},
+{inner: 'r', count: 1},
+{inner: 'd', count: 1}]`
+inner为信息,count为文本信息在字符串中出现的次数
