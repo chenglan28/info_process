@@ -1,4 +1,16 @@
-function ID(a){return document.getElementById(a)}
-function CLASS(a){return document.getElementsByClassName(a)}
-function TAG(a){return document.getElementsByTagName(a)}
-function NAME(a){return document.getElementsByName(a)}
+  function q(n){
+    var ele = document.querySelectorAll(n);
+    //取出所有匹配元素
+    if (ele.length === 1){
+      //只有1个元素
+      //不使用NodeList节点返回
+      var ret = ele[0];
+      ret.forEach = function(callback){
+        //自定义callback函数
+        callback(ret);
+      };
+      ret.length = 1;
+    } else ret = ele;
+    return ret;
+        
+  };
