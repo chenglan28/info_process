@@ -19,7 +19,7 @@ function statistics(inner){
             }
         }
     }
-    else if(typeof == "object"){
+    else if(typeof inner == "object"){
         var res = [];
         inner = inner.split("");
         for(var i = 0;i<inner.length;i++){
