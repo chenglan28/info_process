@@ -21,3 +21,11 @@ query("span")[0].innerHTML = "Hello Pig";
 ## 文字统计
 您可以使用statistics(string inner)统计文字,
 例如:`statistics("Hello World")`它将返回一个数组
+`[{text: 'H', count: 1},
+{text: 'e', count: 1},
+{text: 'l', count: 3},
+{text: 'o', count: 2},
+{text: ' ', count: 1},
+{text: 'W', count: 1},
+{text: 'r', count: 1},
+{text: 'd', count: 1}]`
