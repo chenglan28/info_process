@@ -10,14 +10,14 @@ function query(object){
       //自定义callback函数
       callback(ret);
     };
-    ret.hidden = function(){
-      ret.display = ret.style.display;
-      ret.style.display = "none";
-    }
-    ret.display = function(){
-      ret.style.display = ret.display;
-    }
     ret.length = 1;
   } else ret = ele;
+  ret.hidden = function(){
+    ret.display = ret.style.display;
+    ret.style.display = "none";
+  }
+  ret.display = function(){
+    ret.style.display = ret.display;
+  }
   return ret;   
 };
