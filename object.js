@@ -1,4 +1,4 @@
-  function q(n){
+  function query(object){
     var ele = document.querySelectorAll(n);
     //取出所有匹配元素
     if (ele.length === 1){
