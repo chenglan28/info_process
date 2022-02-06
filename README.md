@@ -29,3 +29,4 @@ query("span")[0].innerHTML = "Hello Pig";
 {text: 'W', count: 1},
 {text: 'r', count: 1},
 {text: 'd', count: 1}]`
+text为文本信息,count为文本信息在字符串中出现的次数
