@@ -1,6 +1,6 @@
 function statistics(inner){
     if(typeof inner == "number")inner.toString();
-    else(typeof inner == "string"){
+    else if(typeof inner == "string"){
         var res = [];
         inner = inner.split("");
         for(var i = 0;i<inner.length;i++){
