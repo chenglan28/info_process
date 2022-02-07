@@ -17,7 +17,7 @@ function query(object){
             currentNode._display = currentNode.style.display;
             currentNode.style.display = "none";
         };
-        currentNode.display = function(){
+        currentNode.show = function(){
             currentNode.style.display = currentNode._display;
         };
     });
