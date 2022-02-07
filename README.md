@@ -32,9 +32,9 @@ query("span")[0].innerHTML = "Hello Pig";
 inner为信息,count为信息在字符串中出现的次数
 
 ## 隐藏/显示 元素
-您可以用`query(object).hide()`隐藏该元素,
-也可以用`query(object).display()`显示该元素
-例如:`query("span")[0].hide()`,
+您可以用```javasript query(object).hide()```隐藏该元素,
+也可以用```javasript ery(object).display()```该元素
+例如:```javasript query("span")[0].hide()```
 它的作用是隐藏第一个span元素
-例如:`query("span")[0].display()`,
+例如:```javasript query("span")[0].display()```
 它的作用是显示第一个span元素
