@@ -33,7 +33,7 @@ inner为信息,count为信息在字符串中出现的次数
 
 ## 隐藏/显示 元素
 您可以用`query(object).hide()`隐藏该元素,
-也可以用`query(object).display()`该元素
+也可以用`query(object).display()`显示该元素
 例如:`query("span")[0].hide()`
 它的作用是隐藏第一个span元素
 例如:`query("span")[0].show()`
